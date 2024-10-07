@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("../Images/AmaLogo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+/* box2 */
+.nav-addres{
+    padding: 8px;
+}
+.add-fir{
+    font-size: 0.7rem;
+    color: #cccccc;
+    margin-left: 15px;
+
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+    
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e6e6e6;
+    border-radius: 4px;
+    width: 620px;
+    height: 40px;
+}
+
+
+.nav-search:hover{
+    border: 2px solid orange;
+    margin: -2px;
+}
+
+.search-select{
+    background-color: #e6e6e6;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;   
+}
+
+
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+/* box4 */
+.nav-contry{
+    width: 54px;
+    display: flex;
+    color: red;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+.country-select{
+    font-size: 0.8rem;
+}
+
+/* box5 */
+.nav-signin{
+    width: 130px;
+    padding: 8px;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-samefont{
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+.nav-returns{
+    width: 76px;
+    padding: 8px;
+}
+
+/* box6 */
+.nav-card{
+    width: 84px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.nav-card i{
+    font-size: 30px;
+}
+
+/* panel settings */
+
+.panel{
+    background-color: #232f3e;
+    height: 39px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.panel-all{
+    font-weight: 700;
+    padding: 8px;
+    
+}
+/* .panel-ops{
+    margin-left: 0%;
+} */
+
+.panel-ops p{
+    display: inline;
+    margin-left: 5px;
+    padding: 8px;
+}
+.panel-logo img{
+    height: 30px;
+    width: 400px;
+    margin-left: auto;
+
+}
+
+/* body */
+
+body{
+    background-color: rgb(255, 215, 125);
+}
+
+.hero-section{
+    background-image: url("../Images/amz_Bimg.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.box-img1{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+}
+
+/* footer */
+
+.footer-panel{
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+    color: white;
+    background-color: #37475A;
+    margin-top: 15px;
+}
+.fotter-panel2{
+    background-color: #232f3e;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.5px solid white;
+
+}
+ul{
+   margin-top: 20px; 
+}
+ul p{
+    font-weight: 700;
+}
+
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+
+}
+
+/* fotter3 */
+.fotter-panel3{
+    height: 70px;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.a-logo{
+    background-image: url("../Images/AmaLogo.png");
+    background-size: cover;
+    width: 100px;
+}
+.fotter-panel4{
+    background-color: #131a22;
+    height: 76px;
+    color: white;
+    font-size: 0.5rem;
+    text-align: center;
+}
+.panel4-part1 {
+    padding-top: 25px;
+}
+.panel4-part1 a{
+    text-decoration: none;
+    padding-left: 5px;
+}    
+.panel4-part1 a:hover{
+    text-decoration: underline;
+}
+
+.panel4-part2 {
+    padding-top: 10px;
+    
+}
